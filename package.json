@@ -1,6 +1,6 @@
 {
   "name": "@joinera/lib-jitsi-meet",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "JS library for accessing Jitsi server side deployments",
   "repository": {
     "type": "git",
@@ -70,7 +70,8 @@
     "gen-types": "tsc --declaration --declarationDir types/auto --emitDeclarationOnly",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
-    "prepack": "npm run build && npm run gen-types",
+    "prepack": "npm run build",
+    "prepack:types": "npm run build && npm run gen-types",
     "test": "karma start karma.conf.js",
     "test-watch": "karma start karma.conf.js --no-single-run",
     "validate": "npm ls",
