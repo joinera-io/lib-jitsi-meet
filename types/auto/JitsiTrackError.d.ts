@@ -49,5 +49,5 @@ declare class JitsiTrackError {
     name: string;
     message: any;
     stack: any;
-    constructor: typeof JitsiTrackError;
+    constructor();//: typeof JitsiTrackError; // Joinera FIX
 }

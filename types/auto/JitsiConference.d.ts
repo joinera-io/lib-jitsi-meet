@@ -191,7 +191,7 @@ declare class JitsiConference {
      * again by Jicofo.
      */
     _videoSenderLimitReached: any;
-    constructor: typeof JitsiConference;
+    constructor();//: typeof JitsiConference; // Joinera FIX
     /**
      * Initializes the conference object properties
      * @param options {object}
