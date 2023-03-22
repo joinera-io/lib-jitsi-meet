@@ -16,7 +16,7 @@ import * as VideoSIPGWConstants from './modules/videosipgw/VideoSIPGWConstants';
 import AudioMixer from './modules/webaudio/AudioMixer';
 import * as ConnectionQualityEvents from './service/connectivity/ConnectionQualityEvents';
 import * as E2ePingEvents from './service/e2eping/E2ePingEvents';
-import JitsiMediaDevices from './JitsiMediaDevices'; // Joinera fix
+import JitsiMediaDevices from './JitsiMediaDevices'; // Joinera FIX
 interface ICreateLocalTrackOptions {
     cameraDeviceId?: string;
     devices?: any[];
@@ -87,7 +87,7 @@ declare const _default: {
         JitsiTrackError: typeof JitsiTrackError;
     };
     logLevels: any;
-    mediaDevices: typeof JitsiMediaDevices; // Joinera fix
+    mediaDevices: typeof JitsiMediaDevices; // Joinera FIX
     analytics: unknown;
     init(options?: IJitsiMeetJSOptions): void;
     /**
