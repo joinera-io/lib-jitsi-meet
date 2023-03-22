@@ -62,9 +62,10 @@
     "webpack-cli": "4.9.0"
   },
   "scripts": {
-    "build": "npm run build:webpack && npm run build:tsc",
+    "build": "npm run build:webpack-joinera && npm run build:tsc",
     "build:webpack": "LIB_JITSI_MEET_COMMIT_HASH=$(git rev-parse --short HEAD 2>/dev/null) webpack",
     "build:webpack-dev": "webpack --mode development",
+    "build:webpack-joinera": "webpack --env LIB_JITSI_MEET_COMMIT_HASH=00000000",
     "build:tsc": "tsc --build --clean && tsc",
     "gen-types": "tsc --declaration --declarationDir types/auto --emitDeclarationOnly",
     "lint": "eslint .",
