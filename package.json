@@ -1,6 +1,6 @@
 {
   "name": "@joinera/lib-jitsi-meet",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "JS library for accessing Jitsi server side deployments",
   "repository": {
     "type": "git",
@@ -77,6 +77,7 @@
     "validate": "npm ls",
     "watch": "webpack --config webpack.config.js --watch --mode development"
   },
+  "browser": "dist/umd/lib-jitsi-meet.min.js",
   "module": "dist/esm/JitsiMeetJS.js",
   "types": "types/auto/JitsiMeetJS.d.ts",
   "files": [
