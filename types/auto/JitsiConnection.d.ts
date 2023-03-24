@@ -69,13 +69,13 @@ export default class JitsiConnection {
      * @param event {JitsiConnectionEvents} the connection event.
      * @param listener {Function} the function that will receive the event
      */
-    addEventListener(event: typeof JitsiConnectionEvents, listener: Function): void;
+    addEventListener(event: JitsiConnectionEvents, listener: Function): void; // Joinera FIX
     /**
      * Unsubscribes the passed handler.
      * @param event {JitsiConnectionEvents} the connection event.
      * @param listener {Function} the function that will receive the event
      */
-    removeEventListener(event: typeof JitsiConnectionEvents, listener: Function): void;
+    removeEventListener(event: JitsiConnectionEvents, listener: Function): void; // Joinera FIX
     /**
      * Returns measured connectionTimes.
      */
@@ -103,4 +103,4 @@ export default class JitsiConnection {
 }
 import XMPP from "./modules/xmpp/xmpp";
 import JitsiConference from "./JitsiConference";
-import * as JitsiConnectionEvents from "./JitsiConnectionEvents";
+import { JitsiConnectionEvents } from "./JitsiConnectionEvents"; // Joinera FIX
