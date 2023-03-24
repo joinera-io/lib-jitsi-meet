@@ -1,6 +1,6 @@
 {
   "name": "@joinera/lib-jitsi-meet",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "JS library for accessing Jitsi server side deployments",
   "repository": {
     "type": "git",

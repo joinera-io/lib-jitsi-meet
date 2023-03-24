@@ -2,7 +2,7 @@
  * The events for the connection.
  */
 
-export enum JitsiConnectionEvents {
+export const enum JitsiConnectionEvents {
     /**
      * Indicates that the connection has been disconnected. The event provides
      * the following parameters to its listeners:
