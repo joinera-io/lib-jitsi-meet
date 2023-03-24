@@ -1,4 +1,4 @@
-export declare const enum MediaType {
+export declare enum MediaType {
     /**
      * The audio type.
      */
