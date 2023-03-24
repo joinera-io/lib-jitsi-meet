@@ -72,6 +72,8 @@
     "lint-fix": "eslint . --fix",
     "prepack": "npm run build",
     "prepack:types": "npm run build && npm run gen-types",
+    "publish": "npm publish --access public",
+    "publish:beta": "npm publish --access public --tag beta",
     "test": "karma start karma.conf.js",
     "test-watch": "karma start karma.conf.js --no-single-run",
     "validate": "npm ls",
