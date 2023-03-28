@@ -1,7 +1,7 @@
 {
   "name": "@joinera/lib-jitsi-meet",
-  "version": "0.0.12",
-  "description": "JS library for accessing Jitsi server side deployments",
+  "version": "1.0.1599",
+  "description": "Jitsi Meet library with NPM & TypeScript support",
   "repository": {
     "type": "git",
     "url": "git://github.com/joinera-io/lib-jitsi-meet/tree/release"
@@ -13,7 +13,7 @@
     "browser",
     "jitsi"
   ],
-  "author": "",
+  "author": "Joinera",
   "readmeFilename": "README.md",
   "dependencies": {
     "@jitsi/js-utils": "2.0.0",
